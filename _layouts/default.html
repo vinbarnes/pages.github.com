@@ -7,29 +7,33 @@
     <title>GitHub Pages - {{ page.title }}</title>
     <link href="http://github.com/stylesheets/bundle_common.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="http://github.com/stylesheets/bundle_github.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="http://developer.github.com/shared/css/documentation.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="/stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <div id="main">
-      <div id="header" class="basic" style="margin-bottom:20px">
+      <div id="header-wrapper">
+        <div id="header" class="basic" style="margin-bottom:20px">
 
-        <div class="site">
-          <div class="logo pages_logo">
-            <a href="/"><img src="http://github.com/images/modules/header/logo_pages.png" alt="github pages" style="margin-top: 10px"/></a>
-          </div>
-          <div class="topsearch">
-            <ul class="nav logged_out" style="margin-top:20px">
-              <li><a href="http://support.github.com/">Support</a></li>
-              <li><a href="http://github.com/">Back to GitHub</a></li>
-            </ul>
+          <div class="site">
+            <div class="logo pages_logo">
+              <a href="/"><img src="http://github.com/images/modules/header/logo_pages.png" alt="github pages" style="margin-top: 10px"/></a>
+            </div>
+            <div class="topsearch">
+              <ul class="nav logged_out" style="margin-top:20px">
+                <li><a href="http://support.github.com/">Support</a></li>
+                <li><a href="http://github.com/">Back to GitHub</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
+      <div id="wrapper">
+        <div id="content" class="site">
 
-      <div id="content" class="site">
+          {{ content }}
 
-        {{ content }}
-
+        </div>
       </div>
 
       <div class="push"></div>
