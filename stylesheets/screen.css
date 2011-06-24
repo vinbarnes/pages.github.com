@@ -2,6 +2,11 @@
   width: 60em;
 }
 
+.pages_logo {
+  top: 14px;
+  margin-left: 12px;
+}
+
 #content.site {
   width: 59em;
 }
