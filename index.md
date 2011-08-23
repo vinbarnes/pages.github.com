@@ -116,6 +116,8 @@ Next, you'll need to visit your domain registrar or DNS host and add a record fo
 
 Real World Example: [github.com/mojombo/mojombo.github.com](http://github.com/mojombo/mojombo.github.com/) &rarr; [http://tom.preston-werner.com/](http://tom.preston-werner.com/).
 
+The above also works for project & organization pages, of course.
+
 Custom 404 Pages
 ================
 
