@@ -40,20 +40,10 @@ h3 {
 
 header {
   width: 100%;
-  height:46px;
+  height:60px;
   position: relative;
   z-index: 10;
   border-bottom: 1px solid #cacaca;
-  box-shadow: 0 1px 0 rgba(255,255,255,0.4), 0 5px 10px rgba(0,0,0,0.2);
-  -moz-box-shadow: 0 1px 0 rgba(255,255,255,0.4), 0 5px 10px rgba(0,0,0,0.2);
-  -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.4), 0 5px 10px rgba(0,0,0,0.2);
-  -ms-box-shadow: 0 1px 0 rgba(255,255,255,0.4), 0 5px 10px rgba(0,0,0,0.2);
-
-  background: -webkit-linear-gradient(top, #fafafa, #eaeaea);
-  background: -moz-linear-gradient(top, #fafafa, #eaeaea);
-  background: -ms-linear-gradient(top, #fafafa, #eaeaea);
-  background: -o-linear-gradient(top, #fafafa, #eaeaea);
-  background: linear-gradient(top, #fafafa, #eaeaea);
 }
 
 header .logo {
@@ -63,7 +53,7 @@ header .logo {
   background: url('../images/logo-pages.png') top left no-repeat;
   overflow: hidden;
   padding: 0;
-  margin: 9px 0 0 0;
+  margin: 15px 0 0 0;
 }
 
 header .logo a {
@@ -74,7 +64,7 @@ header .logo a {
 a.button.classy {
   display: inline-block;
   float:right;
-  margin: 7px 40px 0 0;
+  margin: 14px 40px 0 0;
   padding: 5px 10px;
   color: #474747;
   font-weight:bold;
