@@ -135,7 +135,7 @@ h3.thinner {
 }
 
 section#content {
-  height: 500px;
+  height: 480px;
   padding: 40px 0;
   -webkit-box-shadow: 0 -5px 10px rgba(0,0,0,.2);
   -moz-box-shadow: 0 -5px 10px rgba(0,0,0,.2);
@@ -224,6 +224,7 @@ hr.mark {
 }
 
 #footer .right {
+  float: right;
   margin: 0;
 }
 
@@ -237,6 +238,19 @@ ul#legal li {
     display: inline-block;
     margin-right: 15px;
   }
+
+.footer-logo {
+  float: right;
+  margin-right: 270px;
+
+}
+
+.invertocat {
+  display: block;
+  background: url(../images/invertocat.png) no-repeat;
+  height: 25px;
+  width: 25px;
+}
 
 .clearfix {
   clear:both;
