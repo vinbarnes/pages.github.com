@@ -180,24 +180,20 @@ hr.mark {
 
 #footer {
   position: relative;
-  margin: 40px 0 0 0;
+  margin: 30px 0 30px 0;
   font-size: 12px;
   line-height: 1.5;
   color: #777;
   text-shadow: 0 1px 0 #fff;
   clear: both;
 }
-#footer .container {
-  padding: 30px 0;
+#footer .inner {
+  position:relative;
+  width: 960px;
+  margin: 0 auto;
+  padding: 30px 0 0 0;
   border-top: 1px solid #eee;
 }
-
-.footer-divider {
-  margin: 0 0 20px;
-  border: 0;
-  border-top: 1px solid #eee;
-}
-
 
 .footer_nav {
   width: 20%;
@@ -210,24 +206,10 @@ hr.mark {
     font-weight: bold;
 }
 
-
-#footer .mega-icon-invertocat {
-  position: absolute;
-  bottom: 26px;
-  left: 50%;
-  height: 24px;
-  width: 24px;
-  margin-top: -4px;
-  margin-left: -12px;
-  font-size: 24px;
-  color: #ccc;
-}
-
 #footer .right {
   float: right;
   margin: 0;
 }
-
 
 ul#legal {
   margin: 0;
@@ -237,12 +219,11 @@ ul#legal {
 ul#legal li {
     display: inline-block;
     margin-right: 15px;
-  }
+}
 
 .footer-logo {
   float: right;
   margin-right: 270px;
-
 }
 
 .invertocat {
