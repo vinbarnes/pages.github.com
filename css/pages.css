@@ -40,7 +40,7 @@ h3 {
 
 header {
   width: 100%;
-  height:65px;
+  height:60px;
   position: relative;
   z-index: 10;
   border-bottom: 1px solid #cacaca;
@@ -51,7 +51,7 @@ header .logo {
   height: 41px;
   width: 218px;
   background: url('../images/logo-pages-1x.png') top left no-repeat;
-  background-size: 218px 41px;
+  background-size: 181px 34px;
   overflow: hidden;
   padding: 0;
   margin: 15px 0 0 0;
@@ -65,7 +65,7 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
   header .logo {
-    background-size: 218px 41px;
+    background-size: 181px 34px;
     background-image: url('../images/logo-pages-2x.png');
   }
 }
