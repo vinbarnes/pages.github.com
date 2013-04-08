@@ -40,7 +40,7 @@ h3 {
 
 header {
   width: 100%;
-  height:60px;
+  height:65px;
   position: relative;
   z-index: 10;
   border-bottom: 1px solid #cacaca;
@@ -48,9 +48,10 @@ header {
 
 header .logo {
   float: left;
-  height: 30px;
-  width: 131px;
-  background: url('../images/logo-pages.png') top left no-repeat;
+  height: 41px;
+  width: 218px;
+  background: url('../images/logo-pages-1x.png') top left no-repeat;
+  background-size: 218px 41px;
   overflow: hidden;
   padding: 0;
   margin: 15px 0 0 0;
