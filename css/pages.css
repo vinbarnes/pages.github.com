@@ -17,7 +17,7 @@ body {
   display: inline;
   float:left;
   width: 293px;
-  margin: 0 20px 0 0;
+  margin: 0 40px 0 0;
 }
 
 strong {
@@ -78,7 +78,7 @@ header .logo a {
 a.button.classy {
   display: inline-block;
   float:right;
-  margin: 14px 40px 0 0;
+  margin-top: 14px;
   padding: 5px 10px;
   color: #474747;
   font-weight:bold;
@@ -109,19 +109,8 @@ a.button.classy:hover {
   color: #337797;
 }
 
-h3.thinner {
-  width: 920px;
-  margin-top: 40px;
-  font-weight: 300;
-  font-size: 30px;
-  text-align: left;
-  margin: 0 0 40px 0;
-  text-transform: capitalize;
-  text-align: center;
-}
-
 #hero-spot {
-  height: 40  0px;
+  height: 40 0px;
   background: -webkit-linear-gradient(top, #4b90c3, #0d63a3);
   background: -moz-linear-gradient(top, #4b90c3, #0d63a3);
   background: -ms-linear-gradient(top, #4b90c3, #0d63a3);
@@ -138,9 +127,9 @@ h3.thinner {
 #hero-spot h2 {
   position: relative;
   top: 36px;
-  width: 940px;
+  width: 960px;
   color: #fff;
-  font-size: 36px;
+  font-size: 34px;
   font-weight: 100;
   line-height: 1.1;
   letter-spacing: 1px;
@@ -160,12 +149,15 @@ section#content {
 
 ol.screencap-list li {
   display: inline;
-  float: left;
   width: 293px;
-  margin: 0 20px 20px 0;
+  margin: 0 40px 20px 0;
   list-style: numeric;
   font-size: 24px;
   text-align: center;
+}
+
+ol.screencap-list .right {
+  margin-right: 0;
 }
 
 ol.screencap-list img {
@@ -183,9 +175,9 @@ ol.screencap-list img {
 }
 
 hr.mark {
-  width: 960px;
+  width: 940px;
   height: 50px;
-  margin: 20px 0;
+  margin: 20px auto;
   background: url(../images/hr-blacktocat.png) no-repeat;
   clear: both;
   border: none;
@@ -245,6 +237,15 @@ ul#legal li {
   background: url(../images/invertocat.png) no-repeat;
   height: 25px;
   width: 25px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+  margin-right: 0;
 }
 
 .clearfix {
